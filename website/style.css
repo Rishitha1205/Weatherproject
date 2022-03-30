@@ -1,0 +1,114 @@
+body{
+    background: #7bd3ae;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#app{
+    display: grid;
+    grid-auto-rows: minmax(150px, auto);
+    /* grid-template-columns:  */
+    height:100vh;
+    background: #eee9ee;
+    color: #dce2e4;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    background-image: url('https://images.unsplash.com/photo-1516912481808-3406841bd33c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1944&q=80');
+    background-size: cover;
+}
+
+.entry{
+    background: rgba(169, 212, 230, 0.4);
+    text-align: center;
+}
+
+
+
+#date{
+    color:black;
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+#temp{
+    color:black;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#content{
+    color:black;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.headline {
+    font-size: 90px;
+
+}
+.title{
+    color:rgb(12, 34, 235);
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 30px;
+    font-style: italic;
+    color:rgb(236, 127, 127);
+}
+
+input{
+    display:block;
+    height: 70px;
+    width: 300px;
+    background:#e5e9eb;
+    color: #050504;
+    font-size: 20px;
+    border: none;
+}
+
+button{
+    width: 200px;
+    height: 75px;
+    background: #658bdd;
+    color: #c3f314;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+    margin-left: 10px;
+}
+h1{
+    font-size: 40px;
+}
+
+textarea{
+    background:#e5e9eb;
+    color: #050504;
+    font-size: 20px;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #f554df; 
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #f0d43a; 
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #f0d43a; 
+} 
